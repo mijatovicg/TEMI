@@ -68,13 +68,9 @@ lambda_av_1_2 = numel(spike_train_target)/tau; % average firing rate
 TE_rate_1_2 = function_TE_rate(Cy, Jy, Cu_y, Ju_y, lambda_av_1_2, k_global);
 
 %% MI rate
-Cu_x = Cx;
-Cu_y = Cy;
-Ju_x = Jx; % or can be Jy
-
 tau  = random_events(end, :) - random_events(1, :); % last spike, total recording duration!
 lambda_av_u = Nu/tau; % average firing rate
-MI_rate = function_MI_rate(Cu_x, Ju_x, Cu_y, lambda_av_u, k_global);
+MI_rate = function_MI_rate(Cu_x, Ju_x, Cu_y, lambda_av_u, k_global); %or can be Ju_y
 
 %% generate surrogates
 
