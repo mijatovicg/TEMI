@@ -13,7 +13,7 @@ The TEMI toolbox contains functions for:
 
 and script:
 
-5. demo.m to demonstrate the simulation of coupled spike trains denoted as spike train 1 (process X) and spike train 2 (process Y) where unidirectional interaction X → Y is simulated setting τ=δ= 0.1s (see the simulation protocol explained in the Sect. III in the main article). In this simulation, both TER and MIR estimators are applied.
+5. demo.m to demonstrate the simulation of coupled spike trains denoted as spike train 1 (process X) and spike train 2 (process Y) where unidirectional interaction X → Y is simulated setting τ=δ= 0.1s (see the simulation protocol explained in the Sect. III of the main article). In this simulation, both TER and MIR estimators are applied.
 
 References:
 
