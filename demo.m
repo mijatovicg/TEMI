@@ -11,7 +11,7 @@ clear;
 % of both undirected, symmetric (MIR) and directed, (Granger) causal (TER) interactions between spike trains.
 
 % Script demo.m simulates two coupled spike trains denoted as spike train 1 (process X) and spike train 2 (process Y) 
-% where unidirectional interaction X --> Y is simulated setting tau=delta=0.1 s(see the simulation protocol in Sect. III in the main article).
+% where unidirectional interaction X --> Y is simulated setting tau=delta=0.1 s(see the simulation protocol in the Sect. III of the main article).
 
 % This script uses next functions as a part of package 'TEMI': 
 % function_embedding_vectors.m; 
