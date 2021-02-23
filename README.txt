@@ -7,7 +7,7 @@ The TEMI toolbox contains functions for:
 
 1. creating embeddings at target and joint events: function_embedding_vectors.m
 2. estimation of transfer entropy rate: function_TE_rate.m
-4. assessment of measure' statistical significance based on surrogate data analysis: spiSeMe_surrogate_jodi.m (this function is part of the SpiSeMe package see REF0)
+4. assessment of measure' statistical significance based on surrogate data analysis: spiSeMe_surrogate_jodi.m (this function is part of the SpiSeMe package, see REF0)
 
 and 
 
