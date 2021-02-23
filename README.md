@@ -11,9 +11,9 @@ The TEMI toolbox contains functions for:
 2. estimation of transfer entropy rate: function_TE_rate.m 
 4. assessment of measures' statistical significance based on surrogate data analysis: spiSeMe_surrogate_jodi.m (this function is part of the SpiSeMe package, see REF1)
 
-and 
+and script:
 
-5. script demo.m to demonstrate the simulation of coupled spike trains denoted as spike train 1 (process X) and spike train 2 (process Y) where unidirectional interaction X → Y is simulated setting τ=δ= 0.1s (see the simulation protocol explained in Sect. III in the main article). In this simulation, both TER and MIR estimators are applied.
+5. demo.m to demonstrate the simulation of coupled spike trains denoted as spike train 1 (process X) and spike train 2 (process Y) where unidirectional interaction X → Y is simulated setting τ=δ= 0.1s (see the simulation protocol explained in Sect. III in the main article). In this simulation, both TER and MIR estimators are applied.
 
 References:
 
