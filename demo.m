@@ -4,14 +4,14 @@ clear;
 
 % Here is demonstrated framework that defines the mutual information rate (MIR) and the transfer entropy rate (TER) for two
 % point processes X and Y, showing that the MIR between X and Y can be decomposed as the sum of the TER along
-% the directions X ? Y and Y ? X, as proposed in the paper "An Information-Theoretic Framework to Measure the Dynamic Interaction between Neural Spike Trains" 
+% the directions X --> Y and Y --> X, as proposed in the paper "An Information-Theoretic Framework to Measure the Dynamic Interaction between Neural Spike Trains" 
 % by G. Mijatovic, Y. Antonacci, T. Loncar Turukalo, L. Minati and L. Faes, 2021. 
 
 % The framework presents an information-theoretic approach for the model-free, continuous-time estimation 
 % of both undirected, symmetric (MIR) and directed, (Granger) causal (TER) interactions between spike trains.
 
 % Script demo.m simulates two coupled spike trains denoted as spike train 1 (process X) and spike train 2 (process Y) 
-% where unidirectional interaction X ? Y is simulated setting tau=delta=0.1 s(see the simulation protocol in Sect. III in the main article).
+% where unidirectional interaction X --> Y is simulated setting tau=delta=0.1 s(see the simulation protocol in Sect. III in the main article).
 
 % This script uses next functions as a part of package 'TEMI': 
 % function_embedding_vectors.m; 
