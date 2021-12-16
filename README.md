@@ -15,7 +15,7 @@ and scripts:
 
 4. demo.m to demonstrate the simulation of coupled spike trains denoted as spike train 1 (process X) and spike train 2 (process Y) where unidirectional interaction X → Y is simulated setting τ=δ= 0.1s (see the simulation protocol explained in the Sect. III of the main article). In this simulation, both TER and MIR estimators are applied.
 
-5. demo_cMIR.m to demonstrate the application of the corrected Mutual Information Rate (cMIR) estimator on the uncoupled, short Poisson point-processes X and Y, generated as described in the SubSection 3.1.1 Simulation 1 of the article REF2. 
+5. demo_cMIR.m to demonstrate the application of the corrected Mutual Information Rate (cMIR) estimator on the uncoupled, short Poisson point-processes X and Y, generated as described in the SubSection 3.1.1 - Simulation 1 of the article REF2. 
 
 References:
 
