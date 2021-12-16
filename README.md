@@ -19,9 +19,10 @@ and scripts:
 
 References:
 
-REF0: Shorten, D., Spinney, R., & Lizier, J. (2020). Estimating Transfer Entropy in Continuous Time Between Neural Spike Trains or Other Event-Based Data. bioRxiv.
+REF0: Shorten D, Spinney, R, and Lizier J (2021). Estimating Transfer Entropyin Continuous Time between Neural Spike Trains or Other Event-Based Data.
+Plos Comput. Biol. 17, e1008054. doi:10.1371/journal.pcbi.1008054
 
-REF1: Ricci L, Castelluzzo M, Minati L, Perinelli A  (2019): "Generation  of  surro-gate event sequences via joint distribution of successive inter-event intervals", Chaos: An Interdisciplinary Journal of Nonlinear Science 29(12):121102
+REF1: Ricci L, Castelluzzo M, Minati L, Perinelli A  (2019). Generation  of  surro-gate event sequences via joint distribution of successive inter-event intervals. Chaos: An Interdisciplinary Journal of Nonlinear Science 29(12):121102
 
 REF2: Mijatovic G, Pernice R, Perinelli A, Antonacci Y, Javorka M, Ricci L and Faes L (2021). Measuring the Rate of Information Exchange in Point-Process
 Data With Application to Cardiovascular Variability. Front. Netw. Physiol. 1:765332. doi: 10.3389/fnetp.2021.765332
