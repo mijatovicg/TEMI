@@ -11,14 +11,19 @@ The TEMI toolbox contains functions for:
 2. estimation of transfer entropy rate: function_TE_rate.m 
 4. assessment of measures' statistical significance based on surrogate data analysis: spiSeMe_surrogate_jodi.m (this function is part of the SpiSeMe package, see REF1)
 
-and script:
+and scripts:
 
-5. demo.m to demonstrate the simulation of coupled spike trains denoted as spike train 1 (process X) and spike train 2 (process Y) where unidirectional interaction X → Y is simulated setting τ=δ= 0.1s (see the simulation protocol explained in the Sect. III of the main article). In this simulation, both TER and MIR estimators are applied.
+4. demo.m to demonstrate the simulation of coupled spike trains denoted as spike train 1 (process X) and spike train 2 (process Y) where unidirectional interaction X → Y is simulated setting τ=δ= 0.1s (see the simulation protocol explained in the Sect. III of the main article). In this simulation, both TER and MIR estimators are applied.
+
+5. demo_cMIR.m to demonstrate the application of the corrected Mutual Information Rate (cMIR) estimator on the uncoupled, short Poisson point-processes X and Y, generated as described in the SubSection 3.1.1 Simulation 1 of the article REF2. 
 
 References:
 
 REF0: Shorten, D., Spinney, R., & Lizier, J. (2020). Estimating Transfer Entropy in Continuous Time Between Neural Spike Trains or Other Event-Based Data. bioRxiv.
 
 REF1: Ricci L, Castelluzzo M, Minati L, Perinelli A  (2019): "Generation  of  surro-gate event sequences via joint distribution of successive inter-event intervals", Chaos: An Interdisciplinary Journal of Nonlinear Science 29(12):121102
+
+REF2: Mijatovic G, Pernice R, Perinelli A, Antonacci Y, Javorka M, Ricci L and Faes L (2021). Measuring the Rate of Information Exchange in Point-Process
+Data With Application to Cardiovascular Variability. Front. Netw. Physiol. 1:765332. doi: 10.3389/fnetp.2021.765332
 
 
